@@ -410,16 +410,18 @@ h2{
                 /* FORM */
 
 .foter-list-item-form{
+    position: relative;
     padding-left: 77px;
 }
 
 .foter-form{
-    position: relative;
+    position: absolute;
 
     padding-top: 20px;
 }
 
 .foter-form-field-email{
+    position: absolute;
     width: 358px;
 
     margin: 0px;
@@ -435,7 +437,20 @@ h2{
 }
 
 .foter-form-btn{
-    padding: 10px 76px 10px 42px;
+    /* position: absolute;
+    display: flex; */
+    /* align-items: center;
+    text-align: center; */
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    left: 370px;
+
+    padding: 10px 24px 10px 0px;
+
+    /* left: 370px; */
 
     border-radius: 4px;
     background-color: var(--main-color);
@@ -448,6 +463,27 @@ h2{
     letter-spacing: 0.06em;
 
     color: var(--text-btn-color);
+}
+
+.foter-form-icon{
+    /* position: absolute; */
+    /* display: inline-block; */
+    /* display: flex;
+    align-items: center; */
+
+    display: flex;
+
+    width: 24px;
+    height: 24px;
+
+    border: 1px solid black;
+
+    /* left: 148px;
+    top: 13px; */
+
+    /* border: 1px solid black; */
+    /* display: inline;
+    border: 1px solid black; */
 }
 
                 /* END FORM */
