@@ -407,6 +407,51 @@ h2{
     align-content: center;
 }
 
+                /* FORM */
+
+.foter-list-item-form{
+    padding-left: 77px;
+}
+
+.foter-form{
+    position: relative;
+
+    padding-top: 20px;
+}
+
+.foter-form-field-email{
+    width: 358px;
+
+    margin: 0px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    padding-top: 15px;
+
+    border-color: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+
+    background-color: var(--main-background-color);
+}
+
+.foter-form-btn{
+    padding: 10px 76px 10px 42px;
+
+    border-radius: 4px;
+    background-color: var(--main-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+       
+    letter-spacing: 0.06em;
+
+    color: var(--text-btn-color);
+}
+
+                /* END FORM */
+
 .foter-list-item:first-child{
     margin-right: 70px;
 }
