@@ -25,6 +25,7 @@
 body{
     font-family: var(--main-font);
     color: var(--secondary-color);
+    position: relative;
 }
 
 ul{
@@ -390,6 +391,10 @@ h2{
     padding: 60px 0px;
 }
 
+/* .foter-list-item{
+    position: absolute;
+} */
+
 .foter-list-item-icons{
     display: flex;
     align-items: center;
@@ -409,82 +414,109 @@ h2{
 
                 /* FORM */
 
-.foter-list-item-form{
-    position: relative;
-    padding-left: 77px;
-}
-
 .foter-form{
-    position: absolute;
+    position: relative;
 
-    padding-top: 20px;
+    border: 1px solid orange;
+
+    /* padding-right: 363px; */
+    /* padding-bottom: 70px; */
 }
 
-.foter-form-field-email{
-    position: absolute;
+.foter-list-item-newsletter{
+    margin-left: 78px;
+}
+
+.foter-form-email{
+    /* position: absolute; */
+
     width: 358px;
-
     margin: 0px;
-    padding-bottom: 15px;
-    padding-left: 16px;
-    padding-top: 15px;
+    margin-top: 20px;
+    padding: 15px 0px 15px 16px;
 
-    border-color: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
-
-    background-color: var(--main-background-color);
 }
 
 .foter-form-btn{
-    /* position: absolute;
-    display: flex; */
-    /* align-items: center;
-    text-align: center; */
     /* position: absolute; */
-    display: flex;
-    align-items: center;
-
-    position: absolute;
-    left: 370px;
-
-    padding: 10px 24px 10px 0px;
-
+    /* top: 20px; */
     /* left: 370px; */
 
-    border-radius: 4px;
-    background-color: var(--main-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    /* display: inline-block;
+    align-items: center; */
+
+    padding: 10px 24px 10px 42px;
 
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
-       
-    letter-spacing: 0.06em;
 
+    letter-spacing: 0.06em;
     color: var(--text-btn-color);
+
+    border: 0px;
+    border-radius: 4px;
+
+    background-color: var(--main-color);
 }
 
-.foter-form-icon{
-    /* position: absolute; */
-    /* display: inline-block; */
-    /* display: flex;
-    align-items: center; */
+/* .foter-field-email{
+    width: 358px;
 
+    margin-top: 20px;
+    padding: 15px 0px 15px 16px;
+
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    letter-spacing: 0.03em;
+
+    color: var(--contact-foter-color);
+    background-color: var(--main-background-color);
+
+    border-color: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+} */
+
+/* .foter-btn{
     display: flex;
+    align-items: center;
 
+    position: absolute;
+
+    margin-left: 370px;
+    margin-top: -50px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 42px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+
+    letter-spacing: 0.06em;
+
+    border: 0px;
+    border-radius: 4px;
+
+    background-color: var(--main-color);
+    color: var(--text-btn-color);
+} */
+
+/* .foter-form-icon{
     width: 24px;
     height: 24px;
 
-    border: 1px solid black;
+    margin-left: 24px;
+    margin-right: 13px;
 
-    /* left: 148px;
-    top: 13px; */
-
-    /* border: 1px solid black; */
-    /* display: inline;
-    border: 1px solid black; */
-}
+    fill: var(--text-btn-color);
+} */
 
                 /* END FORM */
 
