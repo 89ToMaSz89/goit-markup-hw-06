@@ -661,6 +661,28 @@ h2{
     cursor: pointer;
 }
 
+.modal-head{
+    margin-top: 40px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--secondary-color);
+}
+
+.modal-form{
+    position: relative;
+}
+
+/* .modal-form-field-name{
+    position: absolute;
+    top: 0px;
+    left: 30px;
+} */
+
 /* *************** END WINDOW MODAL *************** */
 
 /* ########################################### */
