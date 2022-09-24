@@ -784,6 +784,31 @@ input:checked{
     background-image: url(../images/icons.svg#icon-icon-check);
 }
 
+.form-send-btn{
+    position: absolute;
+    top: 414px;
+    left: 164px;
+    padding: 10px 76px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--main-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 4px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    text-align: center;
+
+    letter-spacing: 0.06em;
+
+    color: var(--text-btn-color);
+}
+
 
 
                 /* END FORM */
