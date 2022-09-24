@@ -742,6 +742,13 @@ h2{
     fill: var(--main-color);
 }
 
+.modal-form-name > a:focus-within .modal-form-icons,
+.modal-form-name > a:focus-within .modal-form-input,
+.modal-form-field-comment:focus-within{
+    border-color: var(--main-color);
+    fill: var(--main-color);
+}
+
 .form-text-accept{
     display: flex;
     align-items: center;
@@ -773,15 +780,6 @@ h2{
     
 }
 
-/* .form-text-accept-icon{
-    position: absolute;
-
-    width: 16px;
-    height: 15px;
-
-    fill: var(--main-color);
-} */
-
 input:checked{
     background-image: url(../images/icons.svg#icon-Vector-3);
 }
@@ -809,9 +807,9 @@ input:checked{
     letter-spacing: 0.06em;
 
     color: var(--text-btn-color);
+
+    cursor: pointer;
 }
-
-
 
                 /* END FORM */
 
