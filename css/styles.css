@@ -766,20 +766,23 @@ h2{
 
 .form-text-accept-check{
     margin-right: 9px;
+
+    width: 16px;
+    height: 15px;
 }
 
-.form-text-accept-icon{
+/* .form-text-accept-icon{
     position: absolute;
 
     width: 16px;
     height: 15px;
 
     fill: var(--main-color);
-}
-
-/* input:checked + label::before{
-    background-image: url(../images/icons.svg#icon-icon-check);
 } */
+
+input:checked{
+    background-image: url(../images/icons.svg#icon-icon-check);
+}
 
 
 
