@@ -780,7 +780,7 @@ h2{
     
 }
 
-input:checked + label::before{
+input:checked{
     background-image: url(../images/icons.svg#icon-icon-check);
 }
 
