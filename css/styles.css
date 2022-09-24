@@ -781,7 +781,7 @@ h2{
 }
 
 input:checked{
-    background-image: url(../images/icons.svg#icon-Vector-3);
+    background-image: url(../images/icons.svg#icon-icon-check);
 }
 
 .form-send-btn{
