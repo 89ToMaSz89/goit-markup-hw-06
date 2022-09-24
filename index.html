@@ -684,7 +684,7 @@
                 placeholder="E-mail"
                 class="foter-form-email"
               />
-              <button type="button" class="foter-form-btn">
+              <button type="submit" class="foter-form-btn">
                 Zapisz się
                 <svg class="foter-form-icon">
                   <use href="images/icons.svg#icon-icon-send" x="0" y="0"></use>
@@ -713,7 +713,6 @@
         <form class="modal-form">
           <label class="modal-form-name">
             Imie
-            
             <a class="icons-form">
               <svg class="modal-form-icons">
                 <use
@@ -727,11 +726,29 @@
           </label>
           <label class="modal-form-name">
             Telefon
-            <input type="tel" name="telephone" class="modal-form-input" />
+            <a class="icons-form">
+              <svg class="modal-form-icons">
+                <use
+                  href="./images/icons.svg#icon-phone-black-18dp-1"
+                  x="0"
+                  y="0"
+                ></use>
+              </svg>
+              <input type="tel" name="telephone" class="modal-form-input" />
+            </a>
           </label>
           <label class="modal-form-name">
             Email
-            <input type="email" name="email" class="modal-form-input" />
+            <a class="icons-form">
+              <svg class="modal-form-icons">
+                <use
+                  href="./images/icons.svg#icon-email-black-18dp-1"
+                  x="0"
+                  y="0"
+                ></use>
+              </svg>
+              <input type="email" name="email" class="modal-form-input" />
+            </a>
           </label>
           <label class="modal-form-name">
             Komentarz
@@ -740,6 +757,16 @@
               placeholder="Wprowadź tekst"
               class="modal-form-field-comment"
             ></textarea>
+          </label>
+          <label class="form-text-accept">
+            <input type="checkbox" name="regulations" class="form-text-accept-check" checked />
+            <svg class="form-text-accpet-icon">
+              <use href="./images/icons.svg#icon-icon-check" x="0" y="0"></use>
+            </svg>
+            Oświadczam iż akceptuję&#160;
+            <a href="" class="form-text-regulations">Regulamin</a>
+            &#160;i&#160;
+            <a href="" class="form-text-regulations"> Politykę Prywatności</a>
           </label>
         </form>
       </div>

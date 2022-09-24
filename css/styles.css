@@ -736,10 +736,50 @@ h2{
 }
 
 .modal-form-name > a:hover .modal-form-icons,
-.modal-form-name > a:hover .modal-form-input{
+.modal-form-name > a:hover .modal-form-input,
+.modal-form-field-comment:hover{
     border-color: var(--main-color);
     fill: var(--main-color);
 }
+
+.form-text-accept{
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    left: 54px;
+    top: 362px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: 0.03em;
+
+    color: var(--third-color);
+}
+
+.form-text-regulations{
+    text-decoration: underline;
+    color: var(--main-color);
+}
+
+.form-text-accept-check{
+    margin-right: 9px;
+}
+
+.form-text-accept-icon{
+    position: absolute;
+
+    width: 16px;
+    height: 15px;
+
+    fill: var(--main-color);
+}
+
+/* input:checked + label::before{
+    background-image: url(../images/icons.svg#icon-icon-check);
+} */
 
 
 
