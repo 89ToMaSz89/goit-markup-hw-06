@@ -878,6 +878,10 @@ input:checked{
     background-position: center;
 }
 
+.heading-overlay{
+    background-color: var(--main-background-color);
+}
+
 .heading-titlee{
     margin: 0px;
     padding-bottom: 30px;
